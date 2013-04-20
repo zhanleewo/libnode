@@ -9,7 +9,7 @@ include(CMakeDependentOption)
 # options ----------------------------------------------------------------------
 
 option(LIBNODE_USE_BDWGC       "Use BDW-GC"       OFF)
-option(LIBNODE_USE_CXX11       "Use C++11"        OFF)
+option(LIBNODE_USE_CXX11       "Use C++11"        ON)
 option(LIBNODE_USE_SSL         "Use SSL"          OFF)
 option(LIBNODE_USE_CRYPTO      "Use Crypto"       ON)
 option(LIBNODE_USE_THREAD      "Use Threads"      OFF)
