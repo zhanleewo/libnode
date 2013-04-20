@@ -8,7 +8,7 @@ namespace libj {
 namespace node {
 
 void run() {
-    uv_run(uv_default_loop(), UV_RUN_DEFAULT);
+    uv_run(uv_default_loop());
 }
 
 }  // namespace node
